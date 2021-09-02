@@ -1,0 +1,101 @@
+/* Each card */
+/* .col-md-6, .col-sm-12 {
+    margin-bottom: 2.75rem;
+} */
+.card {
+    height: 100%;
+}
+/* Header & title */
+.first-header{
+    background-color: #fd5a31; 
+    padding: 1rem; 
+    margin-bottom: 1rem;
+}
+.second-header {
+    padding: 1.24rem;
+    background-color: #1a75ff;
+    margin-bottom: 1rem;
+}
+
+.second-header h2 {
+    margin-top: 0.5rem;
+}
+.second-header button {
+    background-color: #fd5a31;
+    color: white;
+    margin-left: 0.75rem !important;
+    border-radius: 0.5rem;
+    padding: 10px 25px;
+}
+
+/* Card headers*/
+.card-headers {
+    color: white;
+}
+.first-title {
+    background-color: #3385ff !important;
+}
+.second-title {
+    background-color: #4d94ff !important;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+/* offer price */
+.offer-price {
+    margin-bottom: 1.75rem;
+}
+.prices-box {
+    margin-bottom: 1.75rem;
+}
+.card-body .btn {
+    background-color: #fd5a31;
+    color: white;
+    font-size: 13px !important;
+    font-weight: bold;
+}
+.new-left-btn {
+    text-transform: capitalize;
+    border-top-left-radius: 1rem !important;
+    border-bottom-left-radius: 1rem !important;
+}
+.old-right-btn {
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    text-transform: uppercase;
+    border-top-right-radius: 1rem !important;
+    border-bottom-right-radius: 1rem !important;
+}
+
+/* Offer card BODY */
+.offer-card-body  {
+    text-align: left;
+}
+.offer-card-body i {
+    color: #4da9ff;
+    margin-right: 3px;
+}
+
+/* Buy ticket  button*/
+
+.buy-ticket a{
+    width: 90% !important;
+    margin: 20px auto;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(
+    90deg
+    ,  #fd5a31, #ff3399);
+}
+/* media quiery */
+@media only screen and (max-width:576px){
+    
+    .second-header .btn{
+        margin: 1.5rem auto 0.75rem auto !important;
+        display: block !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .sm-margin-bottom {
+        margin-bottom: 3rem;
+    }
+}
